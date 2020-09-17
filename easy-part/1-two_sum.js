@@ -1,3 +1,8 @@
+/**
+ * 9.17
+ * https://github.com/azl397985856/leetcode/blob/master/problems/1.two-sum.md
+ * **/
+
 const arr=[2,11,3,9,7,15]
 const target=9
 
@@ -15,6 +20,7 @@ function twoSum(target,arr){
     return data
 }
 
+//map法，以空间换时间
 function twoSum2(target,arr){
     const map=new Map()
     for(let i=0;i<arr.length;i++){
